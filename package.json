@@ -1,0 +1,20 @@
+{
+  "author": "Ben Ng <me@benng.me> (http://benng.me)",
+  "name": "pullquote",
+  "description": "Add pull quotes to your posts",
+  "keywords": [
+    "scotch",
+    "plugin",
+    "formatter",
+    "pullquote"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ben-ng/pullquote.git"
+  },
+  "main": "./lib/pullquote",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
