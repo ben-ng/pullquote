@@ -8,13 +8,20 @@
     "formatter",
     "pullquote"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/ben-ng/pullquote.git"
   },
   "main": "./lib/pullquote",
   "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {}
+  "devDependencies": {
+    "jake": "0.6.x"
+  , "diff": "1.0.x"
+  , "cli-color": "0.2.x"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "jake test"
+  }
 }
